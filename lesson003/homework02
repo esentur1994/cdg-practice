@@ -1,0 +1,13 @@
+def foobar (first_number, second_number)
+    if first_number == 20 || second_number == 20
+        puts second_number
+    else
+        puts first_number + second_number
+    end
+end
+
+puts "Введите первое число: "
+first_number = gets.to_i
+puts "Введите второе число: "
+second_number = gets.to_i
+foobar(first_number, second_number)
