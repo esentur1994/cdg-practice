@@ -1,0 +1,15 @@
+def greeting(name, last_name, age)
+  if age < 18
+    puts "#{name} #{last_name} Тебе меньше 18, но начать программировать никогда не рано"
+  else
+    puts "#{name} #{last_name} Самое время заняться делом!"
+  end
+end
+
+puts "Input your name please: "
+name = gets.chomp
+puts "Input your last name please: "
+last_name = gets.chomp
+puts "Input your age please: "
+age = gets.to_i
+greeting(name, last_name, age)
