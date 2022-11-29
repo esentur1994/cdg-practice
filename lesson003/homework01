@@ -6,10 +6,10 @@ def greeting(name, last_name, age)
   end
 end
 
-puts "Input your name please: "
+puts 'Введите ваше имя: '
 name = gets.chomp
-puts "Input your last name please: "
+puts 'Введите вашу фамилию: '
 last_name = gets.chomp
-puts "Input your age please: "
+puts 'Введите ваш возраст '
 age = gets.to_i
 greeting(name, last_name, age)
