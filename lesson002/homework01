@@ -1,0 +1,6 @@
+def check_word (str)
+  if str[-2, 2] == "CS" || str[-2, 2] == 'cs'
+    puts 2 ** str.length
+  else puts str.reverse
+  end
+end
