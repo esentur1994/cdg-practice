@@ -1,0 +1,16 @@
+def pokemon_pocket
+  puts "Сколько покемонов добавить? "
+  quantity = gets.to_i
+  if quantity.zero?
+    return puts 'Вы не добавили ни одного покемона!'
+  end
+  pokemons = []
+  quantity.times do
+  print "Введите имя покемона: "
+  name = gets.chomp
+  print "Введите цвет покемона: "
+  color = gets.chomp
+  pokemons << { name => color }
+  end
+  puts "Ваши покемоны: #{pokemons}"
+end
